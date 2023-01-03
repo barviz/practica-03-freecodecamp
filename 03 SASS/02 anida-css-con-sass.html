@@ -1,0 +1,55 @@
+<!--
+
+Anida CSS con Sass
+
+Sass permite anidar las reglas CSS, que es una forma útil de organizar una hoja de estilo.
+
+Normalmente, cada elemento está dirigido a una línea diferente para darle estilo, así:
+
+nav {
+  background-color: red;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+Para un proyecto grande, el archivo CSS tendrá muchas líneas y reglas. Aquí es donde la anidación puede ayudar a organizar tu código colocando reglas de estilo hijo dentro de los respectivos elementos padres:
+
+nav {
+  background-color: red;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+Utiliza la técnica de anidación mostrada anteriormente para reorganizar las reglas CSS para ambos hijos del elemento .blog-post. Para fines de prueba, el h1 debe ir antes del elemento p.
+
+-->
+
+<style type='text/scss'>
+  .blog-post {
+
+      h1 {
+        text-align: center;
+        color: blue;
+      }
+        p {
+        font-size: 20px;
+      }
+    
+  }
+</style>
+
+<div class="blog-post">
+  <h1>Blog Title</h1>
+  <p>This is a paragraph</p>
+</div>

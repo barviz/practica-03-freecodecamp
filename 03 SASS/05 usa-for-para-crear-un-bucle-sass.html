@@ -1,0 +1,49 @@
+<!--
+
+Usa @for para crear un bucle Sass
+
+La directiva @for agrega estilos en un bucle, muy similar a un bucle for en JavaScript.
+
+@for se utiliza de dos maneras: "de principio hasta el fin" o "de principio a fin". La principal diferencia es que el "de principio a fin" excluye el número final como parte de la cuenta, y "de principio hasta el fin" incluye el número final como parte de la cuenta.
+
+Aquí hay un ejemplo de principio hasta el fin:
+
+@for $i from 1 through 12 {
+  .col-#{$i} { width: 100%/12 * $i; }
+}
+La parte #{$i} es la sintaxis para combinar una variable (i) con texto para hacer una cadena. Cuando el archivo Sass se convierte en CSS, tiene este aspecto:
+
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+...
+
+.col-12 {
+  width: 100%;
+}
+Esta es una manera poderosa de crear un diseño de cuadrícula (grid). Ahora tienes doce opciones de ancho de columna disponibles como clases CSS.
+
+Escribe una directiva @for que tome una variable $j que vaya de 1 a 6.
+
+Debes crear 5 clases llamadas .text-1 a .text-5 donde cada una tiene un font-size establecido en 15px multiplicado por el índice.
+
+-->
+
+<style type='text/scss'>
+
+  @for $j from 1 to 6 {
+  .text-#{$j} { font-size: 15px * $j; }
+}
+
+</style>
+
+<p class="text-1">Hello</p>
+<p class="text-2">Hello</p>
+<p class="text-3">Hello</p>
+<p class="text-4">Hello</p>
+<p class="text-5">Hello</p>
