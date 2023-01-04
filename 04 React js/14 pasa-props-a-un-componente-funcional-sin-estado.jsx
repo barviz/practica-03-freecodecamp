@@ -14,7 +14,7 @@ Este valor es llamado props por convención y, cuando se trata de componentes fu
 
 Hay componentes Calendar y CurrentDate en el editor de código. Al prensentar CurrentDate desde el componente Calendar, pasa una propiedad de date asignada a la fecha actual desde el objeto Date de JavaScript. Luego, accede a este prop dentro del componente CurrentDate, mostrando su valor dentro de las etiquetas p. Tenga en cuenta que los valores prop se evalúen como JavaScript, deben estar encerrados dentro de corchetes, por ejemplo date={Date()}.
 
- */}
+*/}
 
 const CurrentDate = (props) => {
   return (

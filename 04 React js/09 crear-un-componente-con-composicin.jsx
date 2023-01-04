@@ -19,7 +19,7 @@ En el editor de código, hay un componente funcional simple llamado ChildCompone
 
 Nota: ChildComponent se define con una función de flecha ES6 porque es una práctica muy común al usar React. Sin embargo, has de saber que se trata de una función simple. Si no estás familiarizado con la sintaxis de la función flecha, consulta la sección de JavaScript.
 
- */}
+*/}
 
 const ChildComponent = () => {
   return (

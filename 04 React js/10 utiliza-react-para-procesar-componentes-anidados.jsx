@@ -8,7 +8,7 @@ La composición de componentes es una de las características más poderosas de 
 
 Hay dos componentes funcionales definidos en el editor de código, llamados TypesOfFruit y Fruits. Toma el componente TypesOfFruit y organízalo, o anídalo, dentro del componente Fruits. Luego toma el componente Fruits y anídalo dentro del componente TypesOfFood. El resultado debe ser un componente hijo, anidado dentro de un componente padre, ¡que a su vez está anidado dentro de un componente padre!
 
- */}
+*/}
 
 const TypesOfFruit = () => {
   return (

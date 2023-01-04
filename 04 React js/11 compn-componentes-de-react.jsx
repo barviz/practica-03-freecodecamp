@@ -8,7 +8,7 @@ En el editor de código, el componente TypesOfFood ya está incluyendo (renderiz
 
 Anida dos componentes dentro de Fruits: primero NonCitrus y luego Citrus. Ambos componentes se te proporcionan en segundo plano. A continuación, anida el componente de clase Fruits en el componente TypesOfFood, debajo del encabezado h1 y encima de Vegetables. El resultado debe ser una serie de componentes anidados, que utiliza dos tipos de componentes diferentes.
 
- */}
+*/}
 
 class Fruits extends React.Component {
   constructor(props) {

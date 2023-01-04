@@ -10,7 +10,7 @@ Los componentes de React se pasan a ReactDOM.render() de manera un poco diferent
 
 Los componentes Fruits y Vegetables se definen por ti tras bambalinas. Renderiza ambos componentes como hijos del componente TypesOfFood, y luego renderiza TypesOfFood al DOM. Hay un div con id='challenge-node' disponible para que lo uses.
 
- */}
+*/}
 
 class TypesOfFood extends React.Component {
   constructor(props) {

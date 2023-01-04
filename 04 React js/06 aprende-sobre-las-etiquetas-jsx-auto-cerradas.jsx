@@ -14,7 +14,7 @@ En JSX, las reglas son un poco diferentes. Cualquier elemento JSX se puede escri
 
 Corrige los errores en el editor de código para que sea JSX válido y se transpile exitosamente. Asegúrate de no cambiar nada del contenido: sólo tienes que cerrar las etiquetas donde se necesite.
 
- */}
+*/}
 
 const JSX = (
   <div>

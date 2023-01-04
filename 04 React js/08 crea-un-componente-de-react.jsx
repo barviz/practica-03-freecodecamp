@@ -19,7 +19,7 @@ Esto crea una clase de ES6 Kitten que hereda de la clase React.Component. Así q
 
 MyComponent está definido en el editor de código usando la sintaxis de clase. Termina de escribir el método render para que devuelva un elemento div que contiene un h1 con el texto Hello React!.
 
- */}
+*/}
 
 class MyComponent extends React.Component {
   constructor(props) {

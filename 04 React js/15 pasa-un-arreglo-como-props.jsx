@@ -11,7 +11,7 @@ El componente hijo entonces tiene acceso a la propiedad del arreglo colors. Los 
 
 Están los componentes List y ToDo en el editor de código. Al renderizar cada List del componente ToDo, pasa una propiedad tasks asignada a un arreglo de tareas pendientes, por ejemplo ["walk dog", "workout"]. Luego, accede a este arreglo de tasks en el componente List, mostrando su valor dentro del elemento p. Usa join(", ") para mostrar el arreglo props.tasks en el elemento p como una lista separada por comas. La lista de hoy debe tener al menos 2 tareas y la de mañana debe tener al menos 3 tareas.
 
- */}
+*/}
 
 const List = (props) => {
   { /* Cambia el código debajo de esta línea */ }

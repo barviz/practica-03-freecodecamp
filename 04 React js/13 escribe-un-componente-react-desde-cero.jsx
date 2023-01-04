@@ -8,7 +8,7 @@ Define una clase MyComponent que herede de React.Component. Su método render de
 
 Renderiza este componente al DOM usando ReactDOM.render(). Hay un div con id='challenge-node' disponible para que lo uses.
 
- */}
+*/}
 
 // Cambia el código debajo de esta línea
 

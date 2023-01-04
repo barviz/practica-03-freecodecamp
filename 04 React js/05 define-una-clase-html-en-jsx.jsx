@@ -12,7 +12,7 @@ De hecho, la convención de nomenclatura para todos los atributos HTML y referen
 
 Aplica una clase myDiv al div proporcionado en el código JSX.
 
- */}
+*/}
 
 const JSX = (
   <div className="myDiv">

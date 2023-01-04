@@ -21,7 +21,7 @@ El editor de código tiene una función llamada MyComponent. Completa esta funci
 
 Nota: El texto se considera hijo del elemento div, por lo que no podrás utilizar una etiqueta de autocierre.
 
- */}
+*/}
 
 const MyComponent = function() {
   // Cambia el código debajo de esta línea
