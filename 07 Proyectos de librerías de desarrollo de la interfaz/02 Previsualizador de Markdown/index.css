@@ -1,0 +1,38 @@
+body {
+    font-size: 18px;
+    background-color: #7bed9f;
+}
+
+.main {
+    display: grid;
+    grid-gap: 15px;
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+}
+
+#preview {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2ed573;
+    width: 800px;
+    margin: auto;
+}
+
+#editor {
+    height: 300px;
+    width: 650px;
+    margin: auto;
+}
+
+pre,
+code {
+    background-color: #ffffff;
+}
+
+pre {
+    padding: 30px;
+}
+
+img {
+    width: 20%;
+}
