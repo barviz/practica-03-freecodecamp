@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 24px;
+    background-color: #9bbc41;
+}
+
+h2 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+#drum-machine {
+    margin: 15px auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 680px;
+    display: grid;
+    padding: 50px;
+    grid-gap: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #274018;
+}
+
+.keyboard {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.keyboard .drum-pad {
+    width: 80%;
+    height: 60px;
+    outline: none;
+    font-size: 20px;
+    color: #274018;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0px;
+    background-color: #e3ff66;
+    border: none;
+}
+
+.controle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.controle>button,
+.controle>input,
+.controle>h2 {
+    margin-bottom: 10px
+}
+
+.controle button {
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background-color: #000000;
+}
